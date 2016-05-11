@@ -1,3 +1,4 @@
 AwesomePrint.defaults = {
-  raw: true
+  raw: true,
+  indent: -2
 }
