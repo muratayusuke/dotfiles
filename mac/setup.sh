@@ -28,13 +28,11 @@ brew install packer || true
 brew install autoconf || true
 brew install ghc || true
 brew install libyaml || true
-brew install boot2docker || true
-brew install docker || true
-brew install hub || true
 brew install node || true
 brew install npm || true
 brew install --cocoa --with-gnutls -srgb emacs
 brew install carthage
+brew install global --with-exuberant-ctag
 brew linkapps
 
 # nokogiri
@@ -47,23 +45,20 @@ brew cask install google-japanese-ime
 brew cask install totalspaces
 brew cask install clipmenu
 brew cask install rightzoom
-brew cask install testflight
 brew cask install virtualbox
 brew cask install karabiner
 brew cask install dropbox
 brew cask install vagrant
-brew cask install chefdk
-brew cask install crashlytics
 brew cask install atom
 brew cask install slack
 brew cask install gyazo
 
 # setup android studio
-brew tap caskroom/versions
-brew cask install java7
-brew cask install android-studio
-ABSPATH=$(cd "$(dirname "$0")"; pwd)
-ln -s ${ABSPATH}/../home/.AndroidStudio ~/Library/Preferences/AndroidStudio
+# brew tap caskroom/versions
+# brew cask install java7
+# brew cask install android-studio
+# ABSPATH=$(cd "$(dirname "$0")"; pwd)
+# ln -s ${ABSPATH}/../home/.AndroidStudio ~/Library/Preferences/AndroidStudio
 
 # Remove outdated versions
 brew cleanup
