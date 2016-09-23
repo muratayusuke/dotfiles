@@ -32,7 +32,7 @@ brew install node || true
 brew install npm || true
 brew install --cocoa --with-gnutls -srgb emacs
 brew install carthage
-brew install global --with-exuberant-ctag
+brew install global --with-exuberant-ctags
 brew linkapps
 
 # nokogiri
