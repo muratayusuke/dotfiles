@@ -30,7 +30,7 @@ brew install ghc || true
 brew install libyaml || true
 brew install node || true
 brew install npm || true
-brew install --cocoa --with-gnutls -srgb emacs
+brew install --cocoa --with-gnutls emacs
 brew install carthage
 brew install global --with-exuberant-ctags --with-pygments
 brew linkapps
