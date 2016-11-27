@@ -53,6 +53,7 @@ brew cask install atom
 brew cask install slack
 brew cask install gyazo
 brew cask install docker-toolbox
+brew cask install flux
 
 # setup android studio
 # brew tap caskroom/versions
