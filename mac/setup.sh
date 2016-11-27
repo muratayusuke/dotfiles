@@ -33,6 +33,7 @@ brew install npm || true
 brew install --cocoa --with-gnutls emacs
 brew install carthage
 brew install global --with-exuberant-ctags --with-pygments
+brew install mas
 brew linkapps
 
 # nokogiri
@@ -49,10 +50,12 @@ brew cask install virtualbox
 brew cask install dropbox
 brew cask install vagrant
 brew cask install atom
-brew cask install slack
 brew cask install gyazo
 brew cask install docker-toolbox
 brew cask install flux
+
+# appstore
+mas install 803453959 # slack
 
 # setup android studio
 # brew tap caskroom/versions
