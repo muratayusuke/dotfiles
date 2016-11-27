@@ -46,7 +46,6 @@ brew cask install totalspaces
 brew cask install clipmenu
 brew cask install rightzoom
 brew cask install virtualbox
-brew cask install karabiner-elements
 brew cask install dropbox
 brew cask install vagrant
 brew cask install atom
