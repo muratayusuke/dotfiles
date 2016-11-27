@@ -57,6 +57,8 @@ brew cask install flux
 
 # appstore
 mas install 803453959 # slack
+mas install 866773894 # quiver
+mas install 485812721 # tweetdeck
 
 # setup android studio
 # brew tap caskroom/versions
