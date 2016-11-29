@@ -35,6 +35,9 @@ brew install carthage
 brew install global --with-exuberant-ctags --with-pygments
 brew install mas
 brew install reattach-to-user-namespace
+brew tap codekitchen/dinghy
+brew install dinghy
+brew install the_silver_searcher
 brew linkapps
 
 # nokogiri
