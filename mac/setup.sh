@@ -38,6 +38,7 @@ brew install reattach-to-user-namespace
 brew tap codekitchen/dinghy
 brew install dinghy
 brew install the_silver_searcher
+brew install terraform
 brew linkapps
 
 # nokogiri
