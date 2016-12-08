@@ -10,6 +10,7 @@ wget-log
 .bundle
 vendor/bundle
 *.swp
+.go
 
 # Xcode
 #
