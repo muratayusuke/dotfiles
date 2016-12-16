@@ -71,6 +71,20 @@ mas install 485812721 # tweetdeck
 # ABSPATH=$(cd "$(dirname "$0")"; pwd)
 # ln -s ${ABSPATH}/../home/.AndroidStudio ~/Library/Preferences/AndroidStudio
 
+# rbenv
+brew install rbenv ruby-build
+eval "$(rbenv init -)"
+LATEST_RUBY_VERSION=$(rbenv install -l | grep -v - | tail -1)
+rbenv install $LATEST_RUBY_VERSION
+rbenv global $LATEST_RUBY_VERSION
+gem i bundler
+
+# homesick
+gem i homesick
+homesick clone git@github.com:muratayusuke/dotfiles.git
+homesick symlink
+chsh -s /bin/zsh
+
 # Remove outdated versions
 brew cleanup
 
