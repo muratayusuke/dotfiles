@@ -79,12 +79,6 @@ rbenv install $LATEST_RUBY_VERSION
 rbenv global $LATEST_RUBY_VERSION
 gem i bundler
 
-# homesick
-gem i homesick
-homesick clone git@github.com:muratayusuke/dotfiles.git
-homesick symlink
-chsh -s /bin/zsh
-
 # Remove outdated versions
 brew cleanup
 
