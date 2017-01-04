@@ -3,7 +3,7 @@ local function keyCode(key, modifiers)
    return function()
       hs.eventtap.event.newKeyEvent(modifiers, string.lower(key), true):post()
       hs.timer.usleep(1000)
-      hs.eventtap.event.newKeyEvent(modifiers, string.lower(key), false):post()      
+      hs.eventtap.event.newKeyEvent(modifiers, string.lower(key), false):post()
    end
 end
 
@@ -44,3 +44,9 @@ remapKey({'ctrl'}, 'n', keyCode('down'))
 remapKey({'ctrl'}, 'p', keyCode('up'))
 remapKey({'alt'}, 'f', keyCode('RIGHT', {'alt'}))
 remapKey({'alt'}, 'b', keyCode('LEFT', {'alt'}))
+
+-- ページスクロール
+remapKey({'ctrl'}, 'v', keyCode('pagedown'))
+remapKey({'alt'}, 'v', keyCode('pageup'))
+remapKey({'cmd', 'shift'}, ',', keyCode('home'))
+remapKey({'cmd', 'shift'}, '.', keyCode('end'))
