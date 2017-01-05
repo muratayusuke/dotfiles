@@ -26,7 +26,7 @@ end
 local function handleGlobalAppEvent(name, event, app)
    if event == hs.application.watcher.activated then
       hs.alert.show(name)
-      if name ~= "ターミナル" then
+      if name ~= "ターミナル" or name ~= "Emacs" then
          enableAllHotkeys()
       else
          disableAllHotkeys()
