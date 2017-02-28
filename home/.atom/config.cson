@@ -1,16 +1,27 @@
-'global':
-  'editor':
-    'softWrap': true
-    'fontSize': 10
-  'exception-reporting':
-    'userId': 'd4b9f7b9-6768-4b7a-8c0f-4fbaf2876c61'
-  'welcome':
-    'showOnStartup': false
-  'metrics':
-    'userId': 'c7a839f413aa720e98f1ab824d5ea6aa0ce12843'
-  'remember-session':
-    'x': 0
-    'y': 23
-    'tabs': ''
-    'selectedTab': ''
-    'path': ''
+"*":
+  "atom-ctags":
+    buildTimeout: 10000000
+  core:
+    disabledPackages: [
+      "symbols-view"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 10
+    preferredLineLength: 115
+    showIndentGuide: true
+    softWrap: true
+  "exception-reporting":
+    userId: "d4b9f7b9-6768-4b7a-8c0f-4fbaf2876c61"
+  "linter-rubocop":
+    command: "bundle exec rubocop"
+  metrics:
+    userId: "c7a839f413aa720e98f1ab824d5ea6aa0ce12843"
+  "remember-session":
+    path: ""
+    selectedTab: ""
+    tabs: ""
+    x: 0
+    y: 23
+  welcome:
+    showOnStartup: false
