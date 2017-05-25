@@ -7,7 +7,7 @@
     ]
     telemetryConsent: "limited"
   editor:
-    fontSize: 10
+    fontSize: 9
     preferredLineLength: 115
     showIndentGuide: true
     softWrap: true
