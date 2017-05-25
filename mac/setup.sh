@@ -90,6 +90,10 @@ rm get-pip.py
 # Remove outdated versions
 brew cleanup
 
+# key repeat settings
+defaults write -g InitialKeyRepeat -int 5
+defaults write -g KeyRepeat -int 1
+
 # setup finder
 defaults write com.apple.finder AppleShowAllFiles TRUE
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
