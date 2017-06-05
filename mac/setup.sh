@@ -91,7 +91,7 @@ rm get-pip.py
 brew cleanup
 
 # key repeat settings
-defaults write -g InitialKeyRepeat -int 5
+defaults write -g InitialKeyRepeat -int 20
 defaults write -g KeyRepeat -int 1
 
 # setup finder
