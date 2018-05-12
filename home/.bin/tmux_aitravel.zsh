@@ -3,14 +3,12 @@
 TARGET_DIR=~/projects/travel.ai
 
 function change_dir() {
-  tmux send-keys "cd $TARGET_DIR" C-m
+  tmux send-keys "cd $1" C-m
 }
 
-change_dir
+change_dir $TARGET_DIR
 tmux split-window -h
-change_dir
+change_dir $TARGET_DIR/js
 tmux split-window -v
-change_dir
+change_dir $TARGET_DIR
 tmux select-pane -t 0
-tmux split-window -v
-change_dir
