@@ -19,50 +19,50 @@ brew install rmtrash || true
 brew install coreutils
 brew install wget || true
 brew install tmux || true
-brew install proctools || true
+# brew install proctools || true
 brew install markdown || true
-brew install tree || true
+# brew install tree || true
 brew install nkf || true
 brew install brew-cask || true
 brew install packer || true
-brew install autoconf || true
-brew install ghc || true
-brew install libyaml || true
+# brew install autoconf || true
+# brew install ghc || true
+# brew install libyaml || true
 brew install node || true
-brew install npm || true
-brew install --cocoa --with-gnutls emacs
-brew install carthage
+# brew install npm || true
+# brew install --cocoa --with-gnutls emacs
+# brew install carthage
 brew install global --with-exuberant-ctags --with-pygments
-brew install mas
+# brew install mas
 brew install reattach-to-user-namespace
-brew tap codekitchen/dinghy
-brew install dinghy
+# brew tap codekitchen/dinghy
+# brew install dinghy
 brew install the_silver_searcher
 brew install terraform
 brew linkapps
 
 # nokogiri
-brew install libxml2 libxslt
-brew link libxml2 libxslt --force
+# brew install libxml2 libxslt
+# brew link libxml2 libxslt --force
 
 # .dmg
 brew cask install google-chrome
 brew cask install google-japanese-ime
-brew cask install totalspaces
-brew cask install clipmenu
-brew cask install rightzoom
+# brew cask install totalspaces
+# brew cask install clipmenu
+# brew cask install rightzoom
 brew cask install virtualbox
 brew cask install dropbox
 brew cask install vagrant
 brew cask install atom
 brew cask install gyazo
-brew cask install docker-toolbox
+# brew cask install docker-toolbox
 brew cask install flux
 
 # appstore
 mas install 803453959 # slack
-mas install 866773894 # quiver
-mas install 485812721 # tweetdeck
+# mas install 866773894 # quiver
+# mas install 485812721 # tweetdeck
 
 # setup android studio
 # brew tap caskroom/versions
