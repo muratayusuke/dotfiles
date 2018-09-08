@@ -58,6 +58,7 @@ brew cask install atom
 brew cask install gyazo
 # brew cask install docker-toolbox
 brew cask install flux
+brew cask install sequel-pro
 
 # appstore
 mas install 803453959 # slack
