@@ -87,6 +87,7 @@ sudo python get-pip.py
 echo Installing aws-cli...
 sudo pip install awscli
 rm get-pip.py
+gem i aws-sdk
 
 # Remove outdated versions
 brew cleanup
