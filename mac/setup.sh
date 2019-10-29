@@ -51,9 +51,9 @@ brew cask install google-japanese-ime
 # brew cask install totalspaces
 # brew cask install clipmenu
 # brew cask install rightzoom
-brew cask install virtualbox
+# brew cask install virtualbox
 brew cask install dropbox
-brew cask install vagrant
+# brew cask install vagrant
 brew cask install atom
 brew cask install gyazo
 # brew cask install docker-toolbox
