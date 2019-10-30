@@ -62,6 +62,7 @@ brew cask install gyazo
 brew cask install flux
 brew cask install sequel-pro
 brew cask install sketch
+brew cask install clipy
 
 # appstore
 mas install 803453959 # slack
