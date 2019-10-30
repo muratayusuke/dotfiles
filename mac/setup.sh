@@ -40,6 +40,7 @@ brew install reattach-to-user-namespace
 brew install the_silver_searcher
 brew install terraform
 brew linkapps
+brew install yarn
 
 # nokogiri
 # brew install libxml2 libxslt
