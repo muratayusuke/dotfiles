@@ -29,6 +29,7 @@ brew install packer || true
 # brew install ghc || true
 # brew install libyaml || true
 brew install node || true
+npm install -g node-gyp
 # brew install npm || true
 # brew install --cocoa --with-gnutls emacs
 # brew install carthage
