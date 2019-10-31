@@ -13,7 +13,7 @@ function change_dir() {
 change_dir $TARGET_DIR
 tmux split-window -h
 change_dir $TARGET_DIR/js
-exec "yarn run watch"
+exec "yarn watch"
 tmux split-window -v
 change_dir $TARGET_DIR
 tmux select-pane -t 0
