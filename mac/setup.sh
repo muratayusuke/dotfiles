@@ -28,8 +28,6 @@ brew install packer || true
 # brew install autoconf || true
 # brew install ghc || true
 # brew install libyaml || true
-brew install node || true
-npm install -g node-gyp
 # brew install npm || true
 # brew install --cocoa --with-gnutls emacs
 # brew install carthage
@@ -46,6 +44,14 @@ brew install yarn
 # nokogiri
 # brew install libxml2 libxslt
 # brew link libxml2 libxslt --force
+
+# node
+brew install nodebrew || true
+nodebrew setup
+nodebrew install-binary v11.12.0
+nodebrew use v11.12.0
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+npm install -g yarn node-gyp
 
 # .dmg
 brew cask install google-chrome
