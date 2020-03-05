@@ -99,6 +99,10 @@ sudo pip install awscli
 rm get-pip.py
 gem i aws-sdk
 
+# eks cli
+brew tap weaveworks/tap
+brew install weaveworks/tap/eksctl
+
 # Remove outdated versions
 brew cleanup
 
