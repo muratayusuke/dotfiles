@@ -40,9 +40,10 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 $ curl -sSL https://raw.githubusercontent.com/muratayusuke/dotfiles/master/mac/setup.sh | bash
 ```
 
-### 7. Right Zoomインストール
+### 7. Right Zoom/Totalspaces2のインストール
 
-Command+Option+Eで画面を最大化できるRight Zoomというアプリが、brew caskでインストールすると古いMacOS用のが入っちゃうので、とりあえず[本家サイト](http://www.blazingtools.com/right_zoom_mac.html)から個別にダウンロード。
+- Right Zoon: http://www.blazingtools.com/right_zoom_mac.html
+- Totalspaces2: http://totalspaces.binaryage.com/
 
 ### 8. ログイン項目設定
 
@@ -51,7 +52,7 @@ Command+Option+Eで画面を最大化できるRight Zoomというアプリが、
 - [TotalSpaces2](http://totalspaces.binaryage.com/): 昔のOSXのSpacesを再現するアプリ
 - [Dropbox](https://www.dropbox.com/) : 言わずとしれたファイル共有サービス
 - [RightZoom](http://www.macupdate.com/app/mac/30591/right-zoom): Command + Option + Eで、Windowsの最大化っぽいことができるようになるアプリ
-- [ClipMenu](http://www.clipmenu.com/ja/): クリップボードを一定数保存しておけるアプリ
+- [Clipy](https://clipy.softonic.jp/mac): クリップボードを一定数保存しておけるアプリ
 
 ### 9. ホットコーナーの設定
 
