@@ -57,6 +57,7 @@ brew cask install google-japanese-ime
 # brew cask install rightzoom
 # brew cask install virtualbox
 brew cask install dropbox
+brew cask install visual-studio-code
 # brew cask install vagrant
 brew cask install atom
 brew cask install gyazo
