@@ -8,7 +8,6 @@ brew upgrade
 
 # Add Repository
 brew tap homebrew/cask # for brew-cask
-brew tap homebrew/binary # for packer
 
 # Packages
 brew install zsh || true
