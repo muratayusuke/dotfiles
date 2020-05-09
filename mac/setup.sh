@@ -34,7 +34,6 @@ brew install reattach-to-user-namespace
 # brew install dinghy
 brew install the_silver_searcher
 brew install terraform
-brew install docker
 
 # nokogiri
 # brew install libxml2 libxslt
@@ -66,6 +65,10 @@ brew cask install sequel-pro
 brew cask install sketch
 brew cask install clipy
 brew cask install emacs
+
+# docker
+brew install docker # cli
+brew cask install docker # docker for mac
 
 # appstore
 brew install mas
