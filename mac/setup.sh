@@ -29,7 +29,7 @@ brew install packer || true
 # brew install npm || true
 # brew install --cocoa --with-gnutls emacs
 # brew install carthage
-brew install global --with-exuberant-ctags --with-pygments
+brew install global
 # brew install mas
 brew install reattach-to-user-namespace
 # brew tap codekitchen/dinghy
