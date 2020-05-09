@@ -70,16 +70,7 @@ TotalSpaces2を動かすためと、root権限のファイルをいじるため�
 
 参考: [http://berukann.hatenablog.jp/entry/2015/12/30/123020](http://berukann.hatenablog.jp/entry/2015/12/30/123020)
 
-### 12. デフォルトのemacsをリネームする
-
-前述のスクリプトでcocoa版のemacsをインストールしてemacs serverとして利用するので、標準のCLI版のemacsはリネームしちゃいます。
-
-```
-$ sudo mv /usr/bin/emacs{,.bk}
-$ sudo mv /usr/bin/emacsclient{,.bk}
-```
-
-### 13. dotfile系を持ってくる
+### 12. dotfile系を持ってくる
 
 得意の[homesick](/2013/01/11/%E8%A4%87%E6%95%B0pc%E9%96%93%E3%81%A7%E8%A8%AD%E5%AE%9A%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E5%90%8C%E6%9C%9F%E3%81%A7%E3%81%8D%E3%82%8Bhomesick%E3%81%8C%E4%BE%BF%E5%88%A9/)で設定ファイルを持ってきます。ついでにシェルをzshに変更。
 
@@ -90,7 +81,7 @@ $ homesick symlink
 $ chsh -s /bin/zsh
 ```
 
-### 14. 英かなインストール
+### 13. 英かなインストール
 
 SierraからKarabinerが使えなくなっちゃったので、代わりに「[英かな](https://ei-kana.appspot.com/)」というアプリで左右のCommandキーをかな/英数に割り当てます。
 
@@ -98,11 +89,11 @@ SierraからKarabinerが使えなくなっちゃったので、代わりに「[�
 
 HHKをつないでる会社のMac miniも最近Sierraに上げたので、そっちは真面目にキーマッピング設定する必要がありそうです。
 
-### 15. TotalSpaces2の設定
+### 14. TotalSpaces2の設定
 
 あの縦横2マスずつの4画面が好きなので、そうなるように設定します。
 
-### 16. ショートカット設定
+### 15. ショートカット設定
 
 - Ctrl+Spaceはemacsでめっちゃ使うので、設定→キーボード→ショートカット→入力ソースの内容を無効化
 - Ctrl+上下のキーもわりとemacsで使うので、設定→キーボード→ショートカット→Mission Controlの^↑と^↓を外す
