@@ -36,7 +36,6 @@ brew install reattach-to-user-namespace
 # brew install dinghy
 brew install the_silver_searcher
 brew install terraform
-brew linkapps
 
 # nokogiri
 # brew install libxml2 libxslt
