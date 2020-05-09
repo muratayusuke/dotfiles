@@ -98,3 +98,9 @@ HHKをつないでる会社のMac miniも最近Sierraに上げたので、そっ
 - Ctrl+Spaceはemacsでめっちゃ使うので、設定→キーボード→ショートカット→入力ソースの内容を無効化
 - Ctrl+上下のキーもわりとemacsで使うので、設定→キーボード→ショートカット→Mission Controlの^↑と^↓を外す
 - 設定→キーボード→ショートカット→キーボード→次のウィンドウを操作対象にする のショートカットをOption+Tabにする([参考](http://qiita.com/Yinaura/items/10fe5fe0cb0a795a0f58))
+
+### 16. VS Codeのセッティングを復元
+
+- Setting Syncをインストール: https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
+- インストール完了画面からGithubでログインしてsyncするgistを選択
+- 設定をダウンロード: Shift + Alt + D
