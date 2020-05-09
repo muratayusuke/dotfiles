@@ -87,13 +87,13 @@ rbenv install $LATEST_RUBY_VERSION
 rbenv global $LATEST_RUBY_VERSION
 gem i bundler
 
+# python3
+brew install python
+alias python=python3
+alias pip=pip3
+
 # aws cli
-curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
-echo Installing pip...
-sudo python get-pip.py
-echo Installing aws-cli...
-sudo pip install awscli
-rm get-pip.py
+pip install awscli
 gem i aws-sdk
 
 # eks cli
