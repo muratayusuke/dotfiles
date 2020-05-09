@@ -29,7 +29,7 @@ Mac App StoreからXcodeをインストール。とりあえず起動してラ�
 各種アプリのインストールをhomebrew経由でやるので、ここでインストールしておきます。
 
 ```
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
 ### 6. 各種アプリのインストール
