@@ -27,7 +27,6 @@ brew install packer || true
 # brew install ghc || true
 # brew install libyaml || true
 # brew install npm || true
-brew install emacs
 # brew install carthage
 brew install global
 brew install reattach-to-user-namespace
@@ -66,6 +65,7 @@ brew cask install gyazo
 brew cask install sequel-pro
 brew cask install sketch
 brew cask install clipy
+brew cask install emacs
 
 # appstore
 brew install mas
