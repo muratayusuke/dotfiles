@@ -7,7 +7,7 @@ brew update
 brew upgrade
 
 # Add Repository
-brew tap phinze/homebrew-cask # for brew-cask
+brew tap homebrew/cask # for brew-cask
 brew tap homebrew/binary # for packer
 
 # Packages
@@ -23,7 +23,6 @@ brew install tmux || true
 brew install markdown || true
 # brew install tree || true
 brew install nkf || true
-brew install brew-cask || true
 brew install packer || true
 # brew install autoconf || true
 # brew install ghc || true
