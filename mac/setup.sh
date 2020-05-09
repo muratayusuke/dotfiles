@@ -27,7 +27,7 @@ brew install packer || true
 # brew install ghc || true
 # brew install libyaml || true
 # brew install npm || true
-# brew install --cocoa --with-gnutls emacs
+brew install emacs
 # brew install carthage
 brew install global
 brew install reattach-to-user-namespace
