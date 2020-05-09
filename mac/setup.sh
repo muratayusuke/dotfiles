@@ -30,7 +30,6 @@ brew install packer || true
 # brew install --cocoa --with-gnutls emacs
 # brew install carthage
 brew install global
-# brew install mas
 brew install reattach-to-user-namespace
 # brew tap codekitchen/dinghy
 # brew install dinghy
@@ -68,6 +67,7 @@ brew cask install sketch
 brew cask install clipy
 
 # appstore
+brew install mas
 mas install 803453959 # slack
 # mas install 866773894 # quiver
 # mas install 485812721 # tweetdeck
