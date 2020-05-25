@@ -41,7 +41,7 @@
 [merge]
     tool = meld
     keepBackup = false
-	conflictstyle = diff3
+#	conflictstyle = diff3
 [core]
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
