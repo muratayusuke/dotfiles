@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-TARGET_DIR=~/projects/travel.ai
+TARGET_DIR=$1
 
 function exec() {
   tmux send-keys $1 C-m
