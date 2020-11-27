@@ -12,6 +12,7 @@ vendor/bundle
 *.swp
 .go
 .tags*
+.ruby-version
 
 # Xcode
 #
