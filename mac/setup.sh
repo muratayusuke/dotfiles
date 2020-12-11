@@ -76,12 +76,6 @@ mas install 803453959 # slack
 # mas install 866773894 # quiver
 # mas install 485812721 # tweetdeck
 
-# ricty
-brew tap sanemat/font
-brew install ricty
-cp -f /usr/local/opt/ricty/share/fonts/Ricty*.ttf ~/Library/Fonts/
-fc-cache -vf
-
 # setup android studio
 # brew tap caskroom/versions
 # brew cask install java7
