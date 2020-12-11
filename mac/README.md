@@ -104,3 +104,12 @@ HHKをつないでる会社のMac miniも最近Sierraに上げたので、そっ
 - Setting Syncをインストール: https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
 - インストール完了画面からGithubでログインしてsyncするgistを選択
 - 設定をダウンロード: Shift + Alt + D
+
+### 17. Ricty Diminished追加
+
+```
+$ cd /tmp
+$ git clone git@github.com:edihbrandon/RictyDiminished.git
+$ cp RictyDiminished/*.ttf ~/Library/Fonts/
+$ fc-cache -vf
+```
