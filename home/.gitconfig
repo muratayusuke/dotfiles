@@ -47,3 +47,5 @@
 	attributesfile = ~/.gitattributes
 [github]
 	user = muratayusuke
+[pull]
+	rebase = true
