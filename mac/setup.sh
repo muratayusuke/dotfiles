@@ -156,3 +156,9 @@ defaults write com.apple.screencapture type -string "png"
 
 killall Finder
 
+# Ricty Diminished
+cd /tmp
+git clone git@github.com:edihbrandon/RictyDiminished.git
+cp RictyDiminished/*.ttf ~/Library/Fonts/
+fc-cache -vf
+
