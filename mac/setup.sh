@@ -67,6 +67,7 @@ brew install sequel-pro
 brew install sketch
 brew install clipy
 brew install emacs
+brew install google-backup-and-sync
 
 # docker
 brew install docker # cli
