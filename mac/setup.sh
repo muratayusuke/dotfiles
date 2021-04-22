@@ -42,12 +42,7 @@ brew install htop
 # brew link libxml2 libxslt --force
 
 # node
-brew install nodebrew || true
-nodebrew setup
-nodebrew install-binary v11.12.0
-nodebrew use v11.12.0
-export PATH=$HOME/.nodebrew/current/bin:$PATH
-npm install -g yarn node-gyp
+git clone git://github.com/nodenv/nodenv.git ~/.nodenv
 
 # .dmg
 brew install google-chrome
