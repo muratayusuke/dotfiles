@@ -49,27 +49,27 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 npm install -g yarn node-gyp
 
 # .dmg
-brew cask install google-chrome
-brew cask install google-japanese-ime
+brew install google-chrome
+brew install google-japanese-ime
 # brew cask install totalspaces
 # brew cask install clipmenu
 # brew cask install rightzoom
 # brew cask install virtualbox
-brew cask install dropbox
-brew cask install visual-studio-code
+brew install dropbox
+brew install visual-studio-code
 # brew cask install vagrant
-brew cask install atom
-brew cask install gyazo
+brew install atom
+brew install gyazo
 # brew cask install docker-toolbox
 # brew cask install flux
-brew cask install sequel-pro
-brew cask install sketch
-brew cask install clipy
-brew cask install emacs
+brew install sequel-pro
+brew install sketch
+brew install clipy
+brew install emacs
 
 # docker
 brew install docker # cli
-brew cask install docker # docker for mac
+brew install --cask docker # docker for mac
 
 # appstore
 brew install mas
