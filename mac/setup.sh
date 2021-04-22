@@ -6,8 +6,9 @@ brew update
 # Update already-installed formula
 brew upgrade
 
-# Add Repository
+# brew cask
 brew tap homebrew/cask # for brew-cask
+brew install cask
 
 # Packages
 brew install zsh || true
