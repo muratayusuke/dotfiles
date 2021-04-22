@@ -163,3 +163,8 @@ cp RictyDiminished/*.ttf ~/Library/Fonts/
 brew install fontconfig
 fc-cache -vf
 
+# docker sync
+gem i docker-sync
+brew install unison
+brew install eugenmayer/dockersync/unox
+brew install fswatch
