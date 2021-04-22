@@ -160,5 +160,6 @@ killall Finder
 cd /tmp
 git clone git@github.com:edihbrandon/RictyDiminished.git
 cp RictyDiminished/*.ttf ~/Library/Fonts/
+brew install fontconfig
 fc-cache -vf
 
