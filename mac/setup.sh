@@ -37,6 +37,7 @@ brew install the_silver_searcher
 brew install terraform
 brew install htop
 brew install alfred
+brew install mysql
 
 # nokogiri
 # brew install libxml2 libxslt
