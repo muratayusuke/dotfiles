@@ -36,6 +36,7 @@ brew install reattach-to-user-namespace
 brew install the_silver_searcher
 brew install terraform
 brew install htop
+brew install alfred
 
 # nokogiri
 # brew install libxml2 libxslt
