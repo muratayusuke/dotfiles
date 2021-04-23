@@ -98,6 +98,7 @@ HHKをつないでる会社のMac miniも最近Sierraに上げたので、そっ
 - Ctrl+Spaceはemacsでめっちゃ使うので、設定→キーボード→ショートカット→入力ソースの内容を無効化
 - Ctrl+上下のキーもわりとemacsで使うので、設定→キーボード→ショートカット→Mission Controlの^↑と^↓を外す
 - 設定→キーボード→ショートカット→キーボード→次のウィンドウを操作対象にする のショートカットをOption+Tabにする([参考](http://qiita.com/Yinaura/items/10fe5fe0cb0a795a0f58))
+- cmd+Spaceはalfredに割り当てたいので、Spotlightの「Spotlight検索を表示」をcmd+option+Spaceに変更
 
 ### 16. VS Codeのセッティングを復元
 
