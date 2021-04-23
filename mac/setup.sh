@@ -67,6 +67,9 @@ brew install clipy
 brew install emacs
 brew install google-backup-and-sync
 
+# Trackball用の設定ツール
+brew install steermouse
+
 # docker
 brew install docker # cli
 brew install --cask docker # docker for mac
