@@ -116,6 +116,9 @@ brew install helm
 brew tap weaveworks/tap
 brew install weaveworks/tap/eksctl
 
+# kube log viewer
+brew install stern
+
 # Remove outdated versions
 brew cleanup
 
