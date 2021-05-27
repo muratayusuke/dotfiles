@@ -69,6 +69,7 @@ brew install emacs --cask
 brew install google-backup-and-sync
 brew install kindle
 brew install miro
+brew install bluetoothconnector
 
 # Trackball用の設定ツール
 brew install steermouse
