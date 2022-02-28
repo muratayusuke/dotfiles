@@ -15,7 +15,7 @@ brew install zsh || true
 brew install git || true
 brew install gist || true
 brew install tig || true
-brew install rmtrash || true
+# brew install rmtrash || true
 brew install coreutils
 brew install wget || true
 brew install tmux || true
@@ -63,20 +63,20 @@ brew install gyazo
 # brew cask install docker-toolbox
 # brew cask install flux
 brew install sequel-pro
-brew install sketch
+# brew install sketch
 brew install clipy
 brew install emacs --cask
-brew install google-backup-and-sync
+brew install google-drive
 brew install kindle
 brew install miro
 brew install bluetoothconnector
 
 # Trackball用の設定ツール
-brew install steermouse
+# brew install steermouse
 
 # docker
 brew install docker # cli
-brew install --cask docker # docker for mac
+# brew install --cask docker # docker for mac -> 入らなかった
 
 # appstore
 brew install mas
