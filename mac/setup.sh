@@ -110,6 +110,7 @@ rbenv install $LATEST_RUBY_VERSION
 rbenv global $LATEST_RUBY_VERSION
 rbenv rehash
 gem i bundler
+gem i homesick
 
 # python3
 brew install python
