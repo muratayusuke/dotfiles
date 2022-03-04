@@ -36,10 +36,15 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 $ curl -sSL https://raw.githubusercontent.com/muratayusuke/dotfiles/master/mac/setup.sh | bash
 ```
 
-### 6. Right Zoom/Totalspaces2のインストール
+### 6. インストールした主要アプリの設定
+
+
+
+### 6. 個別インストールが必要なものを入れる
 
 - Right Zoon: http://www.blazingtools.com/right_zoom_mac.html
 - Totalspaces2: http://totalspaces.binaryage.com/
+- 英かな: https://ei-kana.appspot.com/
 
 ### 7. ログイン項目設定
 
@@ -79,14 +84,6 @@ $ homesick clone git@github.com:muratayusuke/dotfiles.git
 $ homesick symlink
 $ chsh -s /bin/zsh
 ```
-
-### 12. 英かなインストール
-
-SierraからKarabinerが使えなくなっちゃったので、代わりに「[英かな](https://ei-kana.appspot.com/)」というアプリで左右のCommandキーをかな/英数に割り当てます。
-
-ぶっちゃけMac Book ProではKarabinerのこの機能しか使ってなかったのでこれで十分でした。
-
-HHKをつないでる会社のMac miniも最近Sierraに上げたので、そっちは真面目にキーマッピング設定する必要がありそうです。
 
 ### 13. TotalSpaces2の設定
 
