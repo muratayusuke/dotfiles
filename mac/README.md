@@ -4,19 +4,18 @@
 
 ### 1. トラックパッドの設定変更
 
-設定→トラックパッド→タップでクリックにチェック。
+- 設定→トラックパッド→タップでクリックにチェック。
 
 ### 2. ターミナルの背景色変更＆メタキー設定
 
-ターミナル→環境設定→プロファイルでProを選択して、デフォルトをクリック。
-
-あとoptionキーをメタキーとして使いたいので、「メタキーとしてOptionキーを使用」にチェックを入れる。
+- ターミナル→環境設定→プロファイルでProを選択して、デフォルトをクリック。
+- 「メタキーとしてOptionキーを使用」にチェックを入れる。
 
 ![ターミナルの設定](https://www.muratayusuke.com/assets/20161215/terminal.png)
 
 ### 3. 修飾キーの変更
 
-設定→キーボード→修飾キーから変更。
+- 設定→キーボード→修飾キーから変更。
   
 ![修飾キーの設定](https://www.muratayusuke.com/assets/mac_setting_001.png)
 
@@ -32,7 +31,7 @@
 
 ### 5. ホットコーナーの設定
 
-設定→Mission Control→ホットコーナーから、左下に「Mission Control」、右下に「アプリケーションウィンドウ」を割り当てます。
+- 設定→Mission Control→ホットコーナーから、左下に「Mission Control」、右下に「アプリケーションウィンドウ」を割り当てます。
 
 ### 6. homebrewのインストール
 
@@ -52,13 +51,12 @@ $ curl -sSL https://raw.githubusercontent.com/muratayusuke/dotfiles/master/mac/s
 
 ### 8. インストールした主要アプリの設定
 
-1つずつ起動して設定していく
+1つずつ起動して設定していく。
 
 - Google Chrome
 - Dropbox
 - Google Drive
 - Alfred 4
-
 
 ### 9. 個別インストールが必要なものを入れる
 
@@ -80,7 +78,7 @@ $ curl -sSL https://raw.githubusercontent.com/muratayusuke/dotfiles/master/mac/s
 
 ### 11. 「ディスプレイごとの個別の操作スペース」を外す
 
-個人的にディスプレイつないでる時は全部一緒に画面切り替わって欲しいので、設定→MIssion Controleから「ディスプレイごとの個別の操作スペース」のチェックを外します。反映にはログアウトが必要ですが、次の手順で再起動するので問題なし。
+設定→MIssion Controleから「ディスプレイごとの個別の操作スペース」のチェックを外します。反映にはログアウトが必要ですが、次の手順で再起動するので問題なし。
 
 ### 12. SIPを無効にする
 
