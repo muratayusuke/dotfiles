@@ -20,6 +20,13 @@
   
 ![修飾キーの設定](https://www.muratayusuke.com/assets/mac_setting_001.png)
 
+### 14. ショートカット設定
+
+- Ctrl+Spaceはemacsでめっちゃ使うので、設定→キーボード→ショートカット→入力ソースの内容を無効化
+- Ctrl+上下のキーもわりとemacsで使うので、設定→キーボード→ショートカット→Mission Controlの^↑と^↓を外す
+- 設定→キーボード→ショートカット→キーボード→次のウィンドウを操作対象にする のショートカットをOption+Tabにする([参考](http://qiita.com/Yinaura/items/10fe5fe0cb0a795a0f58))
+- cmd+Spaceはalfredに割り当てたいので、Spotlightの「Spotlight検索を表示」をcmd+option+Spaceに変更
+
 ### 4. homebrewのインストール
 
 各種アプリのインストールをhomebrew経由でやるので、ここでインストールしておきます。
@@ -38,6 +45,12 @@ $ curl -sSL https://raw.githubusercontent.com/muratayusuke/dotfiles/master/mac/s
 
 ### 6. インストールした主要アプリの設定
 
+1つずつ起動して設定していく
+
+- Google Chrome
+- Dropbox
+- Google Drive
+- Alfred 4
 
 
 ### 6. 個別インストールが必要なものを入れる
@@ -88,13 +101,6 @@ $ chsh -s /bin/zsh
 ### 13. TotalSpaces2の設定
 
 あの縦横2マスずつの4画面が好きなので、そうなるように設定します。
-
-### 14. ショートカット設定
-
-- Ctrl+Spaceはemacsでめっちゃ使うので、設定→キーボード→ショートカット→入力ソースの内容を無効化
-- Ctrl+上下のキーもわりとemacsで使うので、設定→キーボード→ショートカット→Mission Controlの^↑と^↓を外す
-- 設定→キーボード→ショートカット→キーボード→次のウィンドウを操作対象にする のショートカットをOption+Tabにする([参考](http://qiita.com/Yinaura/items/10fe5fe0cb0a795a0f58))
-- cmd+Spaceはalfredに割り当てたいので、Spotlightの「Spotlight検索を表示」をcmd+option+Spaceに変更
 
 ### 15. VS Codeのセッティングを復元
 
