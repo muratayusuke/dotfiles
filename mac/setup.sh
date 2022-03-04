@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo ""
 # Make sure using latest Homebrew
 brew update
 
@@ -48,6 +49,17 @@ git clone git://github.com/nodenv/nodenv.git ~/.nodenv
 git clone https://github.com/nodenv/node-build.git ~/.nodenv/plugins/node-build
 git clone https://github.com/nodenv/node-build-update-defs.git ~/.nodenv/plugins/node-build-update-defs
 
+# emacs
+mv /usr/local/bin/emacs{,_bk}
+mv /usr/local/bin/ebrowse{,_bk}
+mv /usr/local/bin/emacsclient{,_bk}
+mv /usr/local/bin/etags{,_bk}
+mv /usr/local/share/man/man1/ebrowse.1.gz{,_bk}
+mv /usr/local/share/man/man1/emacs.1.gz{,_bk}
+mv /usr/local/share/man/man1/emacsclient.1.gz{,_bk}
+mv /usr/local/share/man/man1/etags.1.gz{,_bk}
+brew install emacs --cask
+
 # .dmg
 brew install google-chrome
 brew install google-japanese-ime
@@ -65,7 +77,6 @@ brew install gyazo
 brew install sequel-pro
 # brew install sketch
 brew install clipy
-brew install emacs --cask
 brew install google-drive
 brew install kindle
 brew install miro
