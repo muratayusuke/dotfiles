@@ -188,6 +188,13 @@ cp RictyDiminished/*.ttf ~/Library/Fonts/
 brew install fontconfig
 fc-cache -vf
 
+# Noto Sans
+cd /tmp
+curl "https://fonts.google.com/download?family=Noto%20Sans%20JP" -o ./notosansjp.zip
+unzip ./notosansjp.zip
+cp NotoSansJP*.otf ~/Library/Fonts/
+fc-cache -vf
+
 # docker sync
 gem i docker-sync
 brew install unison
