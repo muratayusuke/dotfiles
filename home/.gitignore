@@ -32,3 +32,4 @@ DerivedData
 *.ipa
 *.xcuserstate
 .idea
+.fonts/.uuid
