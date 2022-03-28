@@ -57,6 +57,7 @@ $ curl -sSL https://raw.githubusercontent.com/muratayusuke/dotfiles/master/mac/s
 - Dropbox
 - Google Drive
 - Alfred 4
+- [AWSCLI](https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/getting-started-install.html)
 
 ### 9. 個別インストールが必要なものを入れる
 
