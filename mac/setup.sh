@@ -118,7 +118,6 @@ alias python=python3
 alias pip=pip3
 
 # aws cli
-pip install awscli
 gem i aws-sdk
 
 # kubectl
