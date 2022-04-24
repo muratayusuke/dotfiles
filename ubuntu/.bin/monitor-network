@@ -1,0 +1,15 @@
+#!/usr/bin/ruby
+
+LOG_FILE = '/tmp/monitor-network.log'
+CMD = 'ping -c 1 -t 3 google.com'
+
+loop do
+  res = system(CMD)
+  now = Time.now.strftime('%Y-%m-%d %H:%M:%S')
+  network = `/Sy*/L*/Priv*/Apple8*/V*/C*/R*/airport -I | awk '/ SSID:/ {print $2}'`.chomp
+  line = "#{now},#{network},#{res ? 1 : 0}\n"
+  f = File.open(LOG_FILE, 'a')
+  f.write(line)
+  f.close
+  sleep 10
+end
