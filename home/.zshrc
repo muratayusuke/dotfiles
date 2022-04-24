@@ -12,3 +12,5 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH="$HOME/.nodenv/bin:$PATH"
 eval "$(nodenv init -)"
+
+export PATH="$PATH:$HOME/google-cloud-sdk/bin"
