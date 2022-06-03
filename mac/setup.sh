@@ -39,6 +39,7 @@ brew install terraform
 brew install htop
 brew install alfred
 brew install mysql
+brew install jq
 
 # nokogiri
 # brew install libxml2 libxslt
