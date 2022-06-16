@@ -118,9 +118,6 @@ brew install python
 alias python=python3
 alias pip=pip3
 
-# aws cli
-gem i aws-sdk
-
 # kubectl
 brew install kubectl@1.22
 
