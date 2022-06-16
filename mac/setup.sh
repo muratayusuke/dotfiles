@@ -122,7 +122,7 @@ alias pip=pip3
 gem i aws-sdk
 
 # kubectl
-curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/darwin/amd64/kubectl
+brew install kubectl@1.22
 
 # kube package manager
 brew install helm
