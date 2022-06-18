@@ -76,11 +76,7 @@ $ curl -sSL https://raw.githubusercontent.com/muratayusuke/dotfiles/master/mac/s
 - Alfred 4
 - Google Drive
 
-### 11. 「ディスプレイごとの個別の操作スペース」を外す
-
-設定→MIssion Controleから「ディスプレイごとの個別の操作スペース」のチェックを外します。反映にはログアウトが必要ですが、次の手順で再起動するので問題なし。
-
-### 12. dotfile系を持ってくる
+### 11. dotfile系を持ってくる
 
 得意の[homesick](/2013/01/11/%E8%A4%87%E6%95%B0pc%E9%96%93%E3%81%A7%E8%A8%AD%E5%AE%9A%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E5%90%8C%E6%9C%9F%E3%81%A7%E3%81%8D%E3%82%8Bhomesick%E3%81%8C%E4%BE%BF%E5%88%A9/)で設定ファイルを持ってきます。ついでにシェルをzshに変更。
 
@@ -91,12 +87,12 @@ $ homesick symlink
 $ chsh -s /bin/zsh
 ```
 
-### 13. TotalSpaces2の設定
-
-あの縦横2マスずつの4画面が好きなので、そうなるように設定します。
-
-### 14. VS Codeのセッティングを復元
+### 12. VS Codeのセッティングを復元
 
 - Setting Syncをインストール: https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
 - インストール完了画面からGithubでログインしてsyncするgistを選択
 - 設定をダウンロード: Shift + Alt + D
+
+### 13. 「ディスプレイごとの個別の操作スペース」を外す
+
+設定→MIssion Controleから「ディスプレイごとの個別の操作スペース」のチェックを外します。反映にはログアウトが必要なので再起動します。
