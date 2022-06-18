@@ -62,14 +62,12 @@ $ curl -sSL https://raw.githubusercontent.com/muratayusuke/dotfiles/master/mac/s
 ### 9. 個別インストールが必要なものを入れる
 
 - Right Zoon: http://www.blazingtools.com/right_zoom_mac.html
-- Totalspaces2: http://totalspaces.binaryage.com/
 - 英かな: https://ei-kana.appspot.com/
 
 ### 10. ログイン項目設定
 
 起動時に自動で開いておいて欲しいアプリを設定します。設定→ユーザーとグループ→ログイン項目から。追加するのは下記のアプリ。
 
-- [TotalSpaces2](http://totalspaces.binaryage.com/): 昔のOSXのSpacesを再現するアプリ
 - [Dropbox](https://www.dropbox.com/) : 言わずとしれたファイル共有サービス
 - [RightZoom](http://www.macupdate.com/app/mac/30591/right-zoom): Command + Option + Eで、Windowsの最大化っぽいことができるようになるアプリ
 - [Clipy](https://clipy.softonic.jp/mac): クリップボードを一定数保存しておけるアプリ
@@ -81,15 +79,7 @@ $ curl -sSL https://raw.githubusercontent.com/muratayusuke/dotfiles/master/mac/s
 
 設定→MIssion Controleから「ディスプレイごとの個別の操作スペース」のチェックを外します。反映にはログアウトが必要ですが、次の手順で再起動するので問題なし。
 
-### 12. SIPを無効にする
-
-TotalSpaces2を動かすためと、root権限のファイルをいじるためにSIPをオフにしておきます。（要再起動）
-
-※セキュリティは弱くなるのでどうしても必要でなければやらない方がいいです。
-
-参考: [http://berukann.hatenablog.jp/entry/2015/12/30/123020](http://berukann.hatenablog.jp/entry/2015/12/30/123020)
-
-### 13. dotfile系を持ってくる
+### 12. dotfile系を持ってくる
 
 得意の[homesick](/2013/01/11/%E8%A4%87%E6%95%B0pc%E9%96%93%E3%81%A7%E8%A8%AD%E5%AE%9A%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E5%90%8C%E6%9C%9F%E3%81%A7%E3%81%8D%E3%82%8Bhomesick%E3%81%8C%E4%BE%BF%E5%88%A9/)で設定ファイルを持ってきます。ついでにシェルをzshに変更。
 
@@ -100,11 +90,11 @@ $ homesick symlink
 $ chsh -s /bin/zsh
 ```
 
-### 14. TotalSpaces2の設定
+### 13. TotalSpaces2の設定
 
 あの縦横2マスずつの4画面が好きなので、そうなるように設定します。
 
-### 15. VS Codeのセッティングを復元
+### 14. VS Codeのセッティングを復元
 
 - Setting Syncをインストール: https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
 - インストール完了画面からGithubでログインしてsyncするgistを選択
