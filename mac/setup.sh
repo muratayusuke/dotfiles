@@ -19,7 +19,6 @@ brew install tig || true
 # brew install rmtrash || true
 brew install coreutils
 brew install wget || true
-brew install tmux || true
 # brew install proctools || true
 brew install markdown || true
 # brew install tree || true
@@ -40,6 +39,11 @@ brew install htop
 brew install alfred
 brew install mysql
 brew install jq
+
+# tmux: バージョン3.3aでzshがバグったので3.2aに固定
+brew tap-new muratayusuke/taps
+brew extract tmux muratayusuke/taps --version 3.2a
+brew install muratayusuke/taps/tmux@3.2a
 
 # nokogiri
 # brew install libxml2 libxslt
