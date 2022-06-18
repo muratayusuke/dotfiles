@@ -63,6 +63,7 @@ $ curl -sSL https://raw.githubusercontent.com/muratayusuke/dotfiles/master/mac/s
 
 - Right Zoon: http://www.blazingtools.com/right_zoom_mac.html
 - 英かな: https://ei-kana.appspot.com/
+- Docker form mac: https://docs.docker.com/desktop/mac/install/
 
 ### 10. ログイン項目設定
 
