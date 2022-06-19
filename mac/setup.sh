@@ -39,6 +39,8 @@ brew install htop
 brew install alfred
 brew install mysql
 brew install jq
+brew install zoom
+brew install microsoft-teams
 
 # tmux: バージョン3.3aでzshがバグったので3.2aに固定
 brew tap-new muratayusuke/taps
