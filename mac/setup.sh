@@ -41,6 +41,7 @@ brew install mysql
 brew install jq
 brew install zoom
 brew install microsoft-teams
+brew install figma
 
 # tmux: バージョン3.3aでzshがバグったので3.2aに固定
 brew tap-new muratayusuke/taps
