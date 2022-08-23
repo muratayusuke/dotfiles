@@ -73,7 +73,6 @@ $ curl -sSL https://raw.githubusercontent.com/muratayusuke/dotfiles/master/mac/s
 起動時に自動で開いておいて欲しいアプリを設定します。設定→ユーザーとグループ→ログイン項目から。追加するのは下記のアプリ。
 
 - [Dropbox](https://www.dropbox.com/) : 言わずとしれたファイル共有サービス
-- [RightZoom](http://www.macupdate.com/app/mac/30591/right-zoom): Command + Option + Eで、Windowsの最大化っぽいことができるようになるアプリ
 - [Clipy](https://clipy.softonic.jp/mac): クリップボードを一定数保存しておけるアプリ
 - Docker
 - Alfred 4
