@@ -65,7 +65,6 @@ $ curl -sSL https://raw.githubusercontent.com/muratayusuke/dotfiles/master/mac/s
 
 ### 10. 個別インストールが必要なものを入れる
 
-- Right Zoon: http://www.blazingtools.com/right_zoom_mac.html
 - 英かな: https://ei-kana.appspot.com/
 - Docker form mac: https://docs.docker.com/desktop/mac/install/
 
