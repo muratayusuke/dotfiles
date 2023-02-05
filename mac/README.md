@@ -90,10 +90,7 @@ $ chsh -s /bin/zsh
 ```
 
 ### 13. VS Codeのセッティングを復元
-
-- Setting Syncをインストール: https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
-- インストール完了画面からGithubでログインしてsyncするgistを選択
-- 設定をダウンロード: Shift + Alt + D
+- https://code.visualstudio.com/docs/editor/settings-sync
 
 ### 14. Misson Controlの設定
 
