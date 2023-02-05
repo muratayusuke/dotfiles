@@ -12,29 +12,13 @@ brew tap homebrew/cask # for brew-cask
 brew install cask
 
 # Packages
-brew install zsh || true
-brew install git || true
-brew install gist || true
-brew install tig || true
-# brew install rmtrash || true
 brew install coreutils
-brew install wget || true
-# brew install proctools || true
-brew install markdown || true
-# brew install tree || true
-brew install nkf || true
-brew install packer || true
-# brew install autoconf || true
-# brew install ghc || true
-# brew install libyaml || true
-# brew install npm || true
-# brew install carthage
+brew install tmux
+brew install wget
+brew install nkf
+brew install packer
 brew install global
 brew install reattach-to-user-namespace
-# brew tap codekitchen/dinghy
-# brew install dinghy
-brew install the_silver_searcher
-brew install terraform
 brew install htop
 brew install alfred
 brew install mysql
@@ -43,11 +27,28 @@ brew install zoom
 brew install microsoft-teams
 brew install figma
 brew install evernote
+# brew install rmtrash || true
+# brew install proctools || true
+# brew install tree || true
+# brew install autoconf || true
+# brew install ghc || true
+# brew install libyaml || true
+# brew install npm || true
+# brew install carthage
+# brew tap codekitchen/dinghy
+# brew install dinghy
+# brew install gist
+# brew install tig
+# brew install markdown
+# brew install zsh
+# brew install git
+# brew install the_silver_searcher
+# brew install terraform # use tfenv
 
 # tmux: バージョン3.3aでzshがバグったので3.2aに固定
-brew tap-new muratayusuke/taps
-brew extract tmux muratayusuke/taps --version 3.2a
-brew install muratayusuke/taps/tmux@3.2a
+# brew tap-new muratayusuke/taps
+# brew extract tmux muratayusuke/taps --version 3.2a
+# brew install muratayusuke/taps/tmux@3.2a
 
 # nokogiri
 # brew install libxml2 libxslt
@@ -59,37 +60,32 @@ git clone https://github.com/nodenv/node-build.git ~/.nodenv/plugins/node-build
 git clone https://github.com/nodenv/node-build-update-defs.git ~/.nodenv/plugins/node-build-update-defs
 
 # emacs
-mv /usr/local/bin/emacs{,_bk}
-mv /usr/local/bin/ebrowse{,_bk}
-mv /usr/local/bin/emacsclient{,_bk}
-mv /usr/local/bin/etags{,_bk}
-mv /usr/local/share/man/man1/ebrowse.1.gz{,_bk}
-mv /usr/local/share/man/man1/emacs.1.gz{,_bk}
-mv /usr/local/share/man/man1/emacsclient.1.gz{,_bk}
-mv /usr/local/share/man/man1/etags.1.gz{,_bk}
 brew install emacs --cask
+
+# Required to install google-japanese-ime
+sudo softwareupdate --install-rosetta
 
 # .dmg
 brew install google-chrome
 brew install google-japanese-ime
-# brew cask install totalspaces
-# brew cask install clipmenu
-# brew cask install rightzoom
-# brew cask install virtualbox
 brew install dropbox
 brew install visual-studio-code
-# brew cask install vagrant
-brew install atom
 brew install gyazo
-# brew cask install docker-toolbox
-# brew cask install flux
 brew install sequel-pro
-# brew install sketch
 brew install clipy
 brew install google-drive
 brew install kindle
 brew install miro
-brew install bluetoothconnector
+# brew cask install totalspaces
+# brew cask install clipmenu
+# brew cask install rightzoom
+# brew cask install virtualbox
+# brew cask install vagrant
+# brew cask install docker-toolbox
+# brew cask install flux
+# brew install sketch
+# brew install atom
+# brew install bluetoothconnector
 
 # Trackball用の設定ツール
 # brew install steermouse
@@ -115,6 +111,7 @@ mas install 803453959 # slack
 brew install rbenv ruby-build
 eval "$(rbenv init -)"
 LATEST_RUBY_VERSION=$(rbenv install -l | grep -v - | tail -1)
+echo $LATEST_RUBY_VERSION
 rbenv install $LATEST_RUBY_VERSION
 rbenv global $LATEST_RUBY_VERSION
 rbenv rehash
