@@ -27,6 +27,7 @@ brew install zoom
 brew install microsoft-teams
 brew install figma
 brew install evernote
+brew install direnv
 # brew install rmtrash || true
 # brew install proctools || true
 # brew install tree || true
