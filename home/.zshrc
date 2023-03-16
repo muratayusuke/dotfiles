@@ -15,3 +15,4 @@ eval "$(nodenv init -)"
 eval "$(direnv hook zsh)"
 
 export PATH="$PATH:$HOME/google-cloud-sdk/bin"
+export PATH="$HOME/.tfenv/bin:$PATH"
