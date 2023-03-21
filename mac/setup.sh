@@ -137,6 +137,9 @@ brew install weaveworks/tap/eksctl
 # kube log viewer
 brew install stern
 
+# terraform
+git clone https://github.com/tfutils/tfenv.git ~/.tfenv
+
 # Remove outdated versions
 brew cleanup
 
