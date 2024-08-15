@@ -72,7 +72,7 @@ brew install google-japanese-ime
 brew install dropbox
 brew install visual-studio-code
 brew install gyazo
-brew install sequel-pro
+brew install sequel-ace
 brew install clipy
 brew install google-drive
 brew install kindle
