@@ -16,3 +16,29 @@ eval "$(direnv hook zsh)"
 
 export PATH="$PATH:$HOME/google-cloud-sdk/bin"
 export PATH="$HOME/.tfenv/bin:$PATH"
+
+# bun completions
+[ -s "/Users/muratayusuke/.bun/_bun" ] && source "/Users/muratayusuke/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="/Users/muratayusuke/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /Users/muratayusuke/.dart-cli-completion/zsh-config.zsh ]] && . /Users/muratayusuke/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+
+
+# Added by Windsurf
+export PATH="/Users/muratayusuke/.codeium/windsurf/bin:$PATH"
