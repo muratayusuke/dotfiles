@@ -49,3 +49,5 @@
 	user = muratayusuke
 [pull]
 	rebase = true
+[init]
+	defaultBranch = main
