@@ -42,3 +42,18 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 
 # Added by Windsurf
 export PATH="/Users/muratayusuke/.codeium/windsurf/bin:$PATH"
+alias claude="/Users/muratayusuke/.claude/local/claude"
+alias puma-restart="docker compose exec web bin/rails restart"
+# Puma再起動用エイリアス
+alias pr="docker compose exec web pkill -USR2 -f puma && echo \"Puma再起動シグナル送信完了\""
+
+# Go環境変数の設定
+export GOROOT=/opt/homebrew/opt/go/libexec
+export GOPATH=$HOME/.go
+export PATH=$PATH:$GOPATH/bin
+
+# Added by Antigravity
+export PATH="/Users/muratayusuke/.antigravity/antigravity/bin:$PATH"
+
+# claude code
+alias cc='claude --dangerously-skip-permissions'
