@@ -91,6 +91,21 @@ $ homesick symlink
 $ chsh -s /bin/zsh
 ```
 
+tmux のセッション復元（resurrect + continuum）は手順8の `setup.sh` でプラグインを clone 済み。
+homesick symlink 後に `.tmux.conf` が有効になり、起動時の自動復元が使える。
+
+確認（任意）:
+
+```
+$ ls ~/.tmux/plugins
+$ tmux source-file ~/.tmux.conf
+```
+
+使い方:
+- 手動保存: `Ctrl-x` → `Ctrl-s`
+- 手動復元: `Ctrl-x` → `Ctrl-r`
+- 15分ごとに自動保存、tmux 起動時に自動復元
+
 ### 13. VS Codeのセッティングを復元
 - https://code.visualstudio.com/docs/editor/settings-sync
 

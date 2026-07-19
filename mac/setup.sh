@@ -51,6 +51,13 @@ brew install direnv
 # brew extract tmux muratayusuke/taps --version 3.2a
 # brew install muratayusuke/taps/tmux@3.2a
 
+# tmux plugins (resurrect + continuum: セッション復元)
+# .tmux.conf は homesick symlink 後に有効になる。プラグイン本体はここで入れておく。
+mkdir -p ~/.tmux/plugins
+[ -d ~/.tmux/plugins/tpm ] || git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+[ -d ~/.tmux/plugins/tmux-resurrect ] || git clone https://github.com/tmux-plugins/tmux-resurrect ~/.tmux/plugins/tmux-resurrect
+[ -d ~/.tmux/plugins/tmux-continuum ] || git clone https://github.com/tmux-plugins/tmux-continuum ~/.tmux/plugins/tmux-continuum
+
 # nokogiri
 # brew install libxml2 libxslt
 # brew link libxml2 libxslt --force
