@@ -42,7 +42,7 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 
 # Added by Windsurf
 export PATH="/Users/muratayusuke/.codeium/windsurf/bin:$PATH"
-alias claude="/Users/muratayusuke/.claude/local/claude"
+alias claude="$HOME/.local/bin/claude-wrap"
 alias puma-restart="docker compose exec web bin/rails restart"
 # Puma再起動用エイリアス
 alias pr="docker compose exec web pkill -USR2 -f puma && echo \"Puma再起動シグナル送信完了\""
