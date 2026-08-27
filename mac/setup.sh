@@ -77,7 +77,7 @@ brew install --cask --adopt google-chrome
 if [ ! -d "/Library/Input Methods/GoogleJapaneseInput.app" ]; then
   brew install google-japanese-ime
 fi
-brew install dropbox
+brew install --cask --adopt dropbox
 brew install visual-studio-code
 brew install gyazo
 brew install sequel-ace
