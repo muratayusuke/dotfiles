@@ -74,7 +74,9 @@ sudo softwareupdate --install-rosetta
 
 # .dmg
 brew install --cask --adopt google-chrome
-brew install google-japanese-ime
+if [ ! -d "/Library/Input Methods/GoogleJapaneseInput.app" ]; then
+  brew install google-japanese-ime
+fi
 brew install dropbox
 brew install visual-studio-code
 brew install gyazo
