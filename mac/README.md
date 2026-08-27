@@ -171,10 +171,7 @@ $ tmux source-file ~/.tmux.conf
 - 手動復元: `Ctrl-x` → `Ctrl-r`
 - 15分ごとに自動保存、tmux 起動時に自動復元
 
-### 13. VS Codeのセッティングを復元
-- https://code.visualstudio.com/docs/editor/settings-sync
-
-### 14. Misson Controlの設定
+### 13. Misson Controlの設定
 
 - 設定→デスクトップとDock→MIssion Controleから「最新の使用状況に基づいて操作スペースを自動的に並べ替える」のチェックを外します（いらんことすんな）。
 - 設定→デスクトップとDock→MIssion Controleから「ディスプレイごとの個別の操作スペース」のチェックを外します。反映にはログアウトが必要なので再起動します。
@@ -185,6 +182,6 @@ $ tmux source-file ~/.tmux.conf
   - デスクトップ3へ切り替え: Option + Z
   - デスクトップ4へ切り替え: Option + X
 
-### 15. ビデオ会議ツール系の設定
+### 14. ビデオ会議ツール系の設定
 
 - chrome, slack, zoom, teamsそれぞれで画面共有を試し、許可をしておく
