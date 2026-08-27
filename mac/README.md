@@ -149,6 +149,7 @@ $ mas get 302584613  # kindle
 得意の[homesick](/2013/01/11/%E8%A4%87%E6%95%B0pc%E9%96%93%E3%81%A7%E8%A8%AD%E5%AE%9A%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E5%90%8C%E6%9C%9F%E3%81%A7%E3%81%8D%E3%82%8Bhomesick%E3%81%8C%E4%BE%BF%E5%88%A9/)で設定ファイルを持ってきます。ついでにシェルをzshに変更。
 
 ```
+$ eval "$(rbenv init -)"
 $ gem install homesick
 $ homesick clone git@github.com:muratayusuke/dotfiles.git
 $ homesick symlink
