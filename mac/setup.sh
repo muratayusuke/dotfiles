@@ -85,7 +85,6 @@ brew install clipy
 if [ ! -d "/Applications/Google Drive.app" ]; then
   brew install google-drive
 fi
-brew install kindle
 brew install miro
 # brew cask install totalspaces
 # brew cask install clipmenu
@@ -108,6 +107,7 @@ brew install docker # cli
 # appstore
 brew install mas
 mas install 803453959 # slack
+mas install 302584613 # kindle
 # mas install 866773894 # quiver
 # mas install 485812721 # tweetdeck
 
