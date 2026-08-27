@@ -67,9 +67,22 @@ $ curl -sSL https://raw.githubusercontent.com/muratayusuke/dotfiles/master/mac/s
 
 ### 10. 個別インストールが必要なものを入れる
 
+`.pkg` インストーラと Mac App Store（`mas`）は sudo が必要なので `setup.sh` には入れない。手順8のあと、自分のターミナルで実行する。
+
+```
+$ sudo softwareupdate --install-rosetta
+$ brew install --cask zoom
+$ brew install --cask microsoft-teams
+$ brew install --cask google-japanese-ime
+$ brew install --cask google-drive
+$ brew install mas
+$ mas get 803453959  # slack
+$ mas get 302584613  # kindle
+```
+
 - Karabiner-Elements: 左Commandタップで英語（ABC）、右CommandタップでGoogle日本語入力に切り替える
   - インストール: `brew install --cask karabiner-elements`
-  - システム設定 → キーボード → テキスト入力 → 編集 で、入力ソースに「ABC」と「Google日本語入力」を追加する（手順8でIME本体は入っている）
+  - システム設定 → キーボード → テキスト入力 → 編集 で、入力ソースに「ABC」と「Google日本語入力」を追加する（Google日本語入力は上で入れる）
   - Karabiner-Elements → Complex Modifications → Add your own rule に以下を追加する
   - Commandは単独タップで切り替わる。他キーと同時押ししたときは普通のCommandとして働く
   - 英語キーボードが US の場合は `ABC` を `US` に変える。実際の ID は EventViewer → Variables で確認できる

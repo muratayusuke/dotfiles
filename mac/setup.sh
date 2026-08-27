@@ -21,8 +21,6 @@ brew install htop
 # brew install alfred
 brew install mysql
 brew install jq
-brew install zoom
-brew install microsoft-teams
 brew install figma
 # brew install evernote
 brew install direnv
@@ -69,22 +67,13 @@ mkdir -p ~/.nodenv/plugins
 # emacs
 brew install emacs --cask
 
-# Required to install google-japanese-ime
-sudo softwareupdate --install-rosetta
-
 # .dmg
 brew install --cask --adopt google-chrome
-if [ ! -d "/Library/Input Methods/GoogleJapaneseInput.app" ]; then
-  brew install google-japanese-ime
-fi
 brew install --cask --adopt dropbox
 brew install visual-studio-code
 # brew install gyazo
 brew install sequel-ace
 brew install clipy
-if [ ! -d "/Applications/Google Drive.app" ]; then
-  brew install google-drive
-fi
 brew install miro
 # brew cask install totalspaces
 # brew cask install clipmenu
@@ -103,13 +92,6 @@ brew install miro
 # docker
 brew install docker # cli
 # brew install --cask docker # docker for mac -> 入らなかった
-
-# appstore
-brew install mas
-mas install 803453959 # slack
-mas install 302584613 # kindle
-# mas install 866773894 # quiver
-# mas install 485812721 # tweetdeck
 
 # setup android studio
 # brew tap caskroom/versions
