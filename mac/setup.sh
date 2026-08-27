@@ -7,8 +7,6 @@ brew update
 # Update already-installed formula
 brew upgrade
 
-# brew cask
-brew tap homebrew/cask # for brew-cask
 brew install cask
 
 # Packages
