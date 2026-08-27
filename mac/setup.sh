@@ -79,10 +79,12 @@ if [ ! -d "/Library/Input Methods/GoogleJapaneseInput.app" ]; then
 fi
 brew install --cask --adopt dropbox
 brew install visual-studio-code
-brew install gyazo
+# brew install gyazo
 brew install sequel-ace
 brew install clipy
-brew install google-drive
+if [ ! -d "/Applications/Google Drive.app" ]; then
+  brew install google-drive
+fi
 brew install kindle
 brew install miro
 # brew cask install totalspaces
