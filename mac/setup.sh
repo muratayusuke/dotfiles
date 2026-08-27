@@ -185,7 +185,6 @@ brew install fontconfig
 cd /tmp
 git clone https://github.com/edihbrandon/RictyDiminished.git
 cp RictyDiminished/*.ttf ~/Library/Fonts/
-curl "https://fonts.google.com/download?family=Noto%20Sans%20JP" -o ./notosansjp.zip
-unzip ./notosansjp.zip
+curl -fL "https://github.com/googlefonts/noto-cjk/raw/main/Sans/Variable/OTF/Subset/NotoSansJP-VF.otf" -o ./NotoSansJP-VF.otf
 cp NotoSansJP*.otf ~/Library/Fonts/
 fc-cache -vf
