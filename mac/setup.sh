@@ -14,17 +14,17 @@ brew install coreutils
 brew install tmux
 brew install wget
 brew install nkf
-brew install packer
+# brew install packer
 brew install global
 brew install reattach-to-user-namespace
 brew install htop
-brew install alfred
+# brew install alfred
 brew install mysql
 brew install jq
 brew install zoom
 brew install microsoft-teams
 brew install figma
-brew install evernote
+# brew install evernote
 brew install direnv
 # brew install rmtrash || true
 # brew install proctools || true
