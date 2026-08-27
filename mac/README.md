@@ -80,16 +80,16 @@ $ mas get 803453959  # slack
 $ mas get 302584613  # kindle
 ```
 
-- Karabiner-Elements: 左Commandタップで英語（ABC）、右CommandタップでGoogle日本語入力に切り替える
+- Karabiner-Elements: 左Commandタップで英語、右Commandタップで日本語に切り替える
   - インストール: `brew install --cask karabiner-elements`
-  - システム設定 → キーボード → テキスト入力 → 編集 で、入力ソースに「ABC」と「Google日本語入力」を追加する（Google日本語入力は上で入れる）
+  - システム設定 → キーボード → テキスト入力 → 編集 で、入力ソースに「ABC」と「Google日本語入力」を追加する（Google日本語入力は上で入れる）。入力ソースは原則この2つだけにする
   - Karabiner-Elements → Complex Modifications → Add your own rule に以下を追加する
   - Commandは単独タップで切り替わる。他キーと同時押ししたときは普通のCommandとして働く
-  - 英語キーボードが US の場合は `ABC` を `US` に変える。実際の ID は EventViewer → Variables で確認できる
+  - `select_input_source` で日本語へ切り替えると、メニューバーだけ「あ」になり実際の入力は英語のまま残ることがある（macOS の既知問題）。そのため英数／かなキー相当（`japanese_eisuu` / `japanese_kana`）を送る
 
 ```json
 {
-    "description": "Left Cmd -> ABC English, Right Cmd -> Google Japanese",
+    "description": "Left Cmd -> English (eisuu), Right Cmd -> Japanese (kana)",
     "manipulators": [
         {
             "from": {
@@ -101,9 +101,7 @@ $ mas get 302584613  # kindle
                 "basic.to_if_held_down_threshold_milliseconds": 100
             },
             "to": [{ "key_code": "left_command", "lazy": true }],
-            "to_if_alone": [
-                { "select_input_source": { "input_source_id": "^com\\.apple\\.keylayout\\.ABC$" } }
-            ],
+            "to_if_alone": [{ "key_code": "japanese_eisuu" }],
             "to_if_held_down": [{ "key_code": "left_command" }],
             "type": "basic"
         },
@@ -117,14 +115,7 @@ $ mas get 302584613  # kindle
                 "basic.to_if_held_down_threshold_milliseconds": 100
             },
             "to": [{ "key_code": "right_command", "lazy": true }],
-            "to_if_alone": [
-                {
-                    "select_input_source": {
-                        "input_source_id": "^com\\.google\\.inputmethod\\.Japanese\\.base$",
-                        "input_mode_id": "^com\\.apple\\.inputmethod\\.Japanese$"
-                    }
-                }
-            ],
+            "to_if_alone": [{ "key_code": "japanese_kana" }],
             "to_if_held_down": [{ "key_code": "right_command" }],
             "type": "basic"
         }
