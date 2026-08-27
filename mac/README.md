@@ -67,7 +67,58 @@ $ curl -sSL https://raw.githubusercontent.com/muratayusuke/dotfiles/master/mac/s
 
 ### 10. 個別インストールが必要なものを入れる
 
-- 英かな: https://ei-kana.appspot.com/
+- Karabiner-Elements: 左Commandタップで英語（ABC）、右CommandタップでGoogle日本語入力に切り替える
+  - インストール: `brew install --cask karabiner-elements`
+  - システム設定 → キーボード → テキスト入力 → 編集 で、入力ソースに「ABC」と「Google日本語入力」を追加する（手順8でIME本体は入っている）
+  - Karabiner-Elements → Complex Modifications → Add your own rule に以下を追加する
+  - Commandは単独タップで切り替わる。他キーと同時押ししたときは普通のCommandとして働く
+  - 英語キーボードが US の場合は `ABC` を `US` に変える。実際の ID は EventViewer → Variables で確認できる
+
+```json
+{
+    "description": "Left Cmd -> ABC English, Right Cmd -> Google Japanese",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "left_command",
+                "modifiers": { "optional": ["any"] }
+            },
+            "parameters": {
+                "basic.to_if_alone_timeout_milliseconds": 300,
+                "basic.to_if_held_down_threshold_milliseconds": 100
+            },
+            "to": [{ "key_code": "left_command", "lazy": true }],
+            "to_if_alone": [
+                { "select_input_source": { "input_source_id": "^com\\.apple\\.keylayout\\.ABC$" } }
+            ],
+            "to_if_held_down": [{ "key_code": "left_command" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "right_command",
+                "modifiers": { "optional": ["any"] }
+            },
+            "parameters": {
+                "basic.to_if_alone_timeout_milliseconds": 300,
+                "basic.to_if_held_down_threshold_milliseconds": 100
+            },
+            "to": [{ "key_code": "right_command", "lazy": true }],
+            "to_if_alone": [
+                {
+                    "select_input_source": {
+                        "input_source_id": "^com\\.google\\.inputmethod\\.Japanese\\.base$",
+                        "input_mode_id": "^com\\.apple\\.inputmethod\\.Japanese$"
+                    }
+                }
+            ],
+            "to_if_held_down": [{ "key_code": "right_command" }],
+            "type": "basic"
+        }
+    ]
+}
+```
+
 - Docker form mac: https://docs.docker.com/desktop/mac/install/
 
 ### 11. ログイン項目設定
