@@ -8,7 +8,7 @@
 
 ### 2. トラックボールの設定
 
-- [ドライバをインストール](https://www.kensington.com/ja-jp/p/%E8%A3%BD%E5%93%81/%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB/%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%AB/expert-mouse-wired-trackball/)
+- [ドライバをインストール](https://customer.kensington.com/ja/jp/s/64325/expert_mouse__wired_trackball#sw)
 
 ### 3. ターミナルの背景色変更＆メタキー設定
 
