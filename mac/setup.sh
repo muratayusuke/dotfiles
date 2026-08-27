@@ -117,7 +117,7 @@ alias python=python3
 alias pip=pip3
 
 # kubectl
-brew install kubectl@1.22
+# brew install kubectl@1.22
 
 # kube package manager
 brew install helm
