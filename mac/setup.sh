@@ -73,7 +73,7 @@ brew install emacs --cask
 sudo softwareupdate --install-rosetta
 
 # .dmg
-brew install google-chrome
+brew install --cask --adopt google-chrome
 brew install google-japanese-ime
 brew install dropbox
 brew install visual-studio-code
