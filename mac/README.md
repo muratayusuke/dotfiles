@@ -81,6 +81,7 @@ $ git-credential-manager configure
 $ brew install mas
 $ mas get 803453959  # slack
 $ mas get 302584613  # kindle
+$ mas get 937984704  # amphetamine
 ```
 
 - Karabiner-Elements: 左Commandタップで英語、右Commandタップで日本語に切り替える
