@@ -35,7 +35,7 @@ brew install direnv
 # brew tap codekitchen/dinghy
 # brew install dinghy
 # brew install gist
-# brew install tig
+brew install tig
 # brew install markdown
 # brew install zsh
 # brew install git
