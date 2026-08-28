@@ -75,7 +75,6 @@ brew install visual-studio-code
 brew install sequel-ace
 brew install clipy
 brew install miro
-brew install --cask --adopt krisp
 # brew cask install totalspaces
 # brew cask install clipmenu
 # brew cask install rightzoom
